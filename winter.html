@@ -1,0 +1,334 @@
+<!--( doctype>>>so important )
+there are two type render mode "طريقه عرض الصفحه" Quirks Mode is not support all elements
+Standard mode support all elements -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- the type of character in the web ther are two famouse type 
+			old one = ISO-8859-1 didnt support arabic 
+			nowday=UTF-8 support arabic -->
+  <meta charset="UTF-8" />
+  <title>profile abdelrhman</title>
+  <!-- this meta for the coby write under of link in serach -->
+  <meta name="description" content="this is my profile page">
+  <!-- style is use in css -->
+  <style></style>
+  <!-- script is useing in java script -->
+  <script></script>
+
+  <link rel="stylesheet" href="" />
+</head>
+
+<body>
+  <!-- 
+      (H1...6)there are 6 type h and this all about size of text and arrangement it 
+      h1 is the headline of the book
+        h2 is the chapter headline 
+          h3 store titel inside of chapter
+      the arrangment like what we say up is (so important)
+    -->
+  <h1> Hi</h1>
+  <!-- (p) this is for write a paragraph and in insert blocks and space in the code -->
+  <p>this is pargraph</p>
+  This is my profile, welcom
+
+  <!-- to but line we use <hr>
+      hr == horizon rule
+      -->
+  <hr>
+
+  <!-- 
+      <b></b> : Bold
+      <strong></strong> :important text
+      <em></em> :emphasized
+      <mark></mark> :mark the text 
+      <u></u> :underline
+      <small></small> : small text 
+      <P><del>100</del>80</P> :delet
+      <ins></ins> :insert new thing
+      <sup></sup>: make text up
+      <sub></sub>: make text low -->
+
+  <!-- blank is to make the window wep open in new tap -->
+  <a href="test and assiment.html" Target="blank" titel="go to test">test</a>
+
+  <!-- 
+      src=source is used for add address of photo in the wep
+      alt= alterntv is used to show word when photo error and dosent come out -->
+  <img src="" alt="">
+
+  <ul>
+    <li></li>
+  </ul>
+  <!-- ul= unorder list -->
+  <ol>
+    <li></li>
+  </ol>
+  <!-- ol= order   list -->
+
+  <li></li>
+  <!-- li list elements and it is code be like this <ol><li></li></ol> -->
+
+  <!-- attributes of list 
+      reversed = reverse the ordering
+      start    = start from position
+      type     = type of ordering< 1 ,A ,a ,I ,i > -->
+
+  <!-- 
+      dl = description list, 
+      dt = term
+      dd = description of term 
+      -->
+  <dl>
+    <dt></dt>
+    <dd></dd>
+  </dl>
+
+  <!-- 
+      table countain 3 main elements (caption-thead-tbody-tfoot)
+      caption to add address to table 
+      tr == table row
+      td == table date cell
+      th == table header cell
+      attrputs of table>>>(border='' - cellpadding='' -colspan="2" )
+      cellpadding to control the size of cell 
+      border is to add shape 
+    -->
+  <table border="" cellpading=''>
+
+    <thead>
+      <tr>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td> </td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="2"> </td>
+      </tr>
+    </tfoot>
+
+  </table>
+
+  <!-- (br == break) to make the pargraph go to second line  -->
+  <br>
+
+  <!-- to make the word treat like elements to adding or edditing in it using css -->
+  <span></span>
+
+  <!-- attributes < class > is useing for makeing elements special from other  -->
+  <p class="amazing words"></p>
+
+  <!-- 
+        <div></div> is useing to make the section for elements or
+        many of elements to edditing it in css together -->
+  <div></div>
+
+
+  <!--ther are some attributes for audio like
+    control >>it used for control the audio
+    loop    >>to make it replay if it finished
+    muted   >>muted
+    autoplay>>autoplay audio  -->
+  <audio src="" controls loop muted autoplay>
+    <!--we put source here if we know the browser choice the media which he support -->
+    <source src="" type="">
+    <!-- here if we need to add many source in case if the browser not support all media source -->
+    <source src="" type=""> attributes type it important to addd the mme type of audio
+    <source src="" type="">
+    your browser are not support audio
+    <!-- tags here we add coment to show to user that browser not supportthe type of tags that added in this site  -->
+  </audio>
+
+  <!--ther are some attributes for video like
+    control >>it used for control the video
+    loop    >>to make it replay if it finished
+    muted   >>muted
+    autoplay>>autoplay video
+    poster  >>the imge witch will shows while the video lodding
+    -->
+  <video width="" height="" src="" controls loop muted autoplay poster="imge">
+    <!--we put source here if we know the browser choice the media which he support -->
+    <source src="" type="">
+    <!-- here if we need to add many source in case if the browser not support all media source -->
+    <source src="" type=""> attributes type it important to addd the mme type of audio
+    <source src="" type="">
+    your browser are not support audio
+    <!-- tags here we add coment to show to user that browser not supportthe type of tags that added in this site  -->
+    <track src="my_file_en" kind="subtitles" srclang="en" label="english"> <!-- for adding translate to video  -->
+    <!--
+      kind   >>>>>>add witch translate u will add for dif or blind or what
+      srclang>>>>>> to choice the language 
+      labe1  >>>>>>the word which will show about language -->
+  </video>
+
+  <form action="file.exe" method="" target="_blank" Novalidate>
+    <!-- form is to to make a label of username and password and other things in forms -->
+    <!-- attribute >>>action<<< is usde to send the form to backend file which u add name of this file in action  !!!something u will need in backend!!! -->
+    <!-- attribute >>>method<<< is use to declear the type of send (post or get) !!!something u will need in backend!!!  -->
+    <!-- attribute >>>(target="_blank")<<< is to make the the form submit in another tab  -->
+    <!-- attribute >>>>(Novalidate)<<<< is to make the submit be done without ask for full date as skip it its use when ur test it  -->
+    <div>
+      <label>username</label> <!-- label is too put a name or text for next one -->
+      <input type="text" required placeholder="username" name="user" autofocus>
+      <!--  < (input) > is the block where u add a user name or text type is to identification the input type  -->
+    </div>
+    <!--autofocus is use to make ur auto start from here  -->
+
+    <!--ther are differnt type ( username- password- submit- email- hidden- range- number- coloer- reset) -->
+    <div>
+      <label>password</label>
+      <input type="password" required placeholder="paassword" name="pass" minlength="8" maxlength="20">
+      <!-- attribute >>>required<<< is used for fource the user to add the request and cannot submit without add This  -->
+      <!-- attribute>>>placeholder<<< is used to add text in the block show the user what he shoud write in the block 
+        like lable put the difernt is it be inside the block -->
+      <!-- attribute >>>name<<< is like add address to input to decler it for backend !!!something u will need in backend!!! -->
+    </div>
+
+    <div>
+      <label>Email</label>
+      <input type="email" required placeholder="email" name="email" value="asd@123.sd" readonly>
+    </div>
+    <!--readonly is to makeing the valuse cannot be edditing -->
+
+    <div>
+      <label>Email</label>
+      <input type="email" required placeholder="email" name="email" value="asd@123.sd" disabled>
+    </div><!-- attribute disabled is to make it can not be edditing and can not be send to backend -->
+
+    <div>
+      <!-- attribute >>value<< is use to add value to the block  -->
+      <input type="submit" value="save">
+    </div>
+
+    <div>
+      <input type="reset" value="reset"><!-- to rest form -->
+    </div>
+
+
+    <div>
+      <label>hidden-</label>
+      <input type="hidden" name="hidden"><!--  to hide info like ip -->
+    </div>
+
+    <div>
+      <label>range</label>
+      <input type="range" name="range" min="0" max="10" step="2" value="4"> <!-- to add range -->
+    </div>
+
+    <div>
+      <label>number</label>
+      <input type="number" name="number" min="0" max="10" step="2" value="4"><!--  to add number -->
+    </div>
+
+    <div>
+      <label>color-</label>
+      <input type="color" name="coler"> <!-- to add color -->
+    </div>
+
+    <div>
+      <!-- (type >>>radio) is use to make selection part to mark one thing -->
+      <input type="radio" name="os" value="window" id="win" checked>
+      <!--  (id) is useing to make this bart have sign can call by in the code -->
+      <label for="win">win</label><!--  (for) is use to link input and label by useing id name  -->
+    </div>
+
+    <div>
+      <!-- (type >>>checkbox ) is use to makeing Multi selection part to mark meny choice  -->
+      <input type="checkbox" name="os" value="window" id="win1" checked>
+      <!--(checked)>>> to make it marked by defult -->
+      <label>color-</label>
+    </div>
+
+    <label for="book">choose book</label>
+    <select name="books" id="book">
+      <!-- select is to make select section with many option  -->
+      <optgroup label="police">
+        <!--  optgroup >>>to make group of option  -->
+        <option value="1">book1</option>
+        <option value="2" selected>book2</option><!--  selectedd >>>to make it the first selct in the web -->
+      </optgroup>
+      <optgroup label="detectiv">
+        <option value="3">book3</option>
+      </optgroup>
+    </select>
+
+    <label for="text1"></label>
+    <textarea name="text" id="text1" cols="30" rows="10" placeholder="text ur mind"></textarea>
+
+    <div>
+      <label for="">upload ur file</label>
+      <input type="file">
+    </div>
+
+    <div>
+      <label for="1">serach</label>
+      <input type="search" id="1">
+    </div>
+
+    <div>
+      <label for="2">chose the date</label>
+      <input type="date" id="2">
+    </div>
+
+    <div>
+      <label for="3">choose the month</label>
+      <input type="month" id="3">
+    </div>
+    <div>
+      <label for="4">choose the TIME</label>
+      <input type="time" id="4">
+    </div>
+
+    <div>
+      <label for="5">put the url (link)</label>
+      <input type="url" id="5">
+    </div>
+
+    <label>list</label>
+    <input list="list of" name="list language">
+    <!-- attribute (input list) is use to make the list which have many option look like selecttion -->
+    <datalist id="list of">
+      <!--  in id of data list we type the what >(list= )< that to link it to list attribute -->
+      <option value="arabic">
+      <option value="english">
+      <option value="italian">
+      <option value="spansh">
+    </datalist>
+    <!-- the differnt between the list and select is the list we can serach between the option  if there are many -->
+  </form>
+
+
+  <Q>this is wise word</Q>
+  <!--(Q) is to make ("") for mark it as a wise word and its line -->
+  <Blockquote>this is wise word</Blockquote>
+  <!-- >>> Blockquote<<< is to make it marked as wise word and its blockline -->
+  <button>ckick</button>
+  <!--to add button -->
+  <div>
+    https://www.youtube.com/watch?v<wbr>=AzjtVtxoBLc&list=PLDoPjvoNmBAw<wbr>_t_XWUFbBX-c9MafPk9ji&index=33
+  </div><!--  >>>(wbr)<<< is to customize where we do breack in the long line of words  -->
+  <p>السلام 2 welcom</p>
+  <p><Bdi>السلام</Bdi> 2 welcom</p> <!-- Bdi is to Isolation the words -->
+
+  <div role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="plan1">
+    plan one
+  </div>
+  <label id="plan1">plan one label</label>
+  <!-- 
+>>>>(role) is show for the browser that div act like what exampel checkbox 
+>>>>(aria-checked) is show for the browser that div attribute act like checked 
+>>>>(tabindex) that make tab bottom abel the select it 
+>>>>(aria-labelledby) is show for the browser that attribute act like id or for
+>>>>>>>>>>>>>>>>>>>>>and all thos for make the code accessibility<<<<<<<<<<<<<<<<<<<
+-->
+</body>
+
+</html>
